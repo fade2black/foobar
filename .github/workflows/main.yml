@@ -4,7 +4,7 @@ name: AWS frontend deployment workflow
 on:
   push
 env:
-  BUCKET_NAME : "liquandum-frontend"
+  BUCKET_NAME : "runtime-layers"
   AWS_REGION : "eu-central-1"
 # permission can be added at job level or workflow level    
 permissions:
